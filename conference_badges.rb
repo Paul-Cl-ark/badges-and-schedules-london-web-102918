@@ -18,7 +18,7 @@ def assign_rooms(attendees)
   room_ass
 end
 
-def printer(name, attendees)
+def printer(attendees)
   puts badge_maker(name)
   puts assign_rooms(attendees)
 end
