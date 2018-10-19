@@ -13,7 +13,7 @@ end
 def assign_rooms(attendees)
   room_ass = []
   attendees.each_with_index do |name, room|
-    room_ass.push("Hello, #{name}! You'll be assinged to room #{room}!")
+    room_ass.push("Hello, #{name}! You'll be assigned to room #{room}!")
   end
   room_ass
 end
