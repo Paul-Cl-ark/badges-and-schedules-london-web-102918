@@ -13,7 +13,9 @@ end
 def assign_rooms(attendees)
   room_ass = []
   attendees.each_with_index do |name, room|
-  "Hello, #{name}! You'll be assinged to room #{room}!"
+    "Hello, #{name}! You'll be assinged to room #{room}!"
+  end
+  room_ass
 end
 
 def printer(attendees)
